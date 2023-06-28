@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+background: url(https://super.abril.com.br/wp-content/uploads/2019/06/site_geleiranivelmar.png?w=1024&resize=1200,800);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+}
+
+h1 {
+	font-size: 45px;
+	color: rgb(5, 5, 133);
+}
+
+.container {
+	padding: 20px;
+	background-color: #ddf6fa;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.buttons {
+	margin: 30px 0;
+	display: flex;
+	gap: 40px;
+}
+
+button {
+	padding: 10px;
+	font-size: 50px;
+	cursor: pointer;
+	border-radius: 10px;
+	border: none;
+	transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+	opacity: 0.6;
+	
+}
+
+#rock {
+	background-color: rgb(173, 106, 236);
+}
+
+#paper {
+	background-color: rgb(106, 236, 134);
+}
+
+
+#scissors {
+	background-color: rgb(108, 106, 236);
+}
+
+p {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: rgb(8, 8, 85);
+}
+
+.your-score span {
+	color: rgb(79, 77, 243);
+}
+
+.machine-score span {
+	color: rgb(238, 66, 66);
+}
